@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3eee3bfb7436f04babc4e8aa9eec256, type: 3}
+  m_Name: Inspect TV
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: 7f63f61372fd3594ab02981af9f4164b, type: 3}
+  locationName: 1st Floor 3rd Room
+  storyText: 'You decided to check the TV. It has a cartoon playing and the little
+    girl is watching it with excitement. The parents watching them her dancing around
+    at the gesture of the show. The Cabinet under the TV simply had a Recorder inside
+    it. Nothing much to look here.
+
+
+    What will you do?
+
+    1. Inspect Kitchen
+
+    2.
+    Inspect Sofa
+
+    3. Inspect Wardrobe
+
+    4. Head outside to the corridor
+
+'
+  audioClip: {fileID: 8300000, guid: cf7b5c7dbce59d6458c4b961db33c441, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 6e6090d8a15a4124e9c06e2a6eeaf993, type: 2}
+  - {fileID: 11400000, guid: 06ab145055d879e4996e9fd92e1763ab, type: 2}
+  - {fileID: 11400000, guid: 9642d3a303111da469a70a64ea69536c, type: 2}
+  - {fileID: 11400000, guid: 90556f59f6324194ca83da8497690c04, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3eee3bfb7436f04babc4e8aa9eec256, type: 3}
+  m_Name: Inspect Mirror
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: 53204d1d95a448a46b41526daff47349, type: 3}
+  locationName: Single Woman's Room
+  storyText: 'Filled with all sorts of makeup tools, some even look like they''re
+    from famous brands and super expensive. The beauty of a woman comes at a high
+    price.
+
+
+    What will you do?
+
+    1. Inpect Wardrobe
+
+    2. Inspect Bed
+
+    3.
+    Inspect Kitchen
+
+    4. Head back to the corridor'
+  audioClip: {fileID: 8300000, guid: 21b91ef877c082c45a842ad3a78bc80e, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: c728ab9d3302fa747b2aabad2358f717, type: 2}
+  - {fileID: 11400000, guid: 110bce0c8dd8d2442b971d74f4b25725, type: 2}
+  - {fileID: 11400000, guid: 155d09f53feb3444ba9db04165469bf3, type: 2}
+  - {fileID: 11400000, guid: be86b3cfb5034064abb68b0638db0a4b, type: 2}

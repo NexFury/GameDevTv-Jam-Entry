@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3eee3bfb7436f04babc4e8aa9eec256, type: 3}
+  m_Name: Inspect Wardrobe
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: 05e77b98a19f5484384d3e5ae950b638, type: 3}
+  locationName: Landlord's Room
+  storyText: 'The wardrobe had mostly T-shirts and bottoms. The point that was astonishing
+    was that even though he was single, he had a few pairs of woman''s clothing as
+    well. Whether it belonged to some acquanstance, there''s not much to deduce...
+
+
+    What
+    will you do?
+
+    1. Inspect Table
+
+    2. Inspect TV
+
+    3. Inspect Desk
+
+    4.
+    Head back to the corridor'
+  audioClip: {fileID: 8300000, guid: aa472f3279976d74a9eef69849857d88, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: b089f6024547d904fafb3850a686d914, type: 2}
+  - {fileID: 11400000, guid: 2c4df84701933b14cb2081f284a5216c, type: 2}
+  - {fileID: 11400000, guid: 67d33dc9c78abc74282c8b8124df6ca8, type: 2}
+  - {fileID: 11400000, guid: be86b3cfb5034064abb68b0638db0a4b, type: 2}

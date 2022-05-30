@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3eee3bfb7436f04babc4e8aa9eec256, type: 3}
+  m_Name: Final
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: cf0f2c9a53e836d45948156973bf80a1, type: 3}
+  locationName: Your Room
+  storyText: 'You return to your room. No valuable clue as to how you ended up as
+    you were. You sit on the bed, staring into the gaze; pondering on how to proceed
+    here on. You gaze at your own corpse, silently. You suddenly notice that you
+    were holding a gaming console. Your complexion was quite bad as quite a while
+    was passed. Eventually, as you look at your dead body''s face, a sudden ray of
+    light out of the head of corpse, flowing towards your head. "Wait...."
+
+
+    Press
+    1 to continue...'
+  audioClip: {fileID: 8300000, guid: 741118d5ed261724d9155f079d81c050, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: ce86d7e8c86fb774e9a75439613daf00, type: 2}

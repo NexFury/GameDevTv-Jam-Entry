@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3eee3bfb7436f04babc4e8aa9eec256, type: 3}
+  m_Name: Inspect Corridor
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: 9b52d95b1a8a6e5458c744c59bf6d768, type: 3}
+  locationName: First Floor Corridor
+  storyText: 'You look through the corridor. Facing your own room, there''s one room
+    on the left and 2 more on the right, totalling to 4. Next to the far right room
+    is the stairway leading down to ground floor. You look through the veranda that
+    you are currently on first floor which is the highest on this apartment.
+
+
+    What
+    will you do?
+
+    1. Inspect First Room.
+
+    2. Go back to your Room.
+
+    3.
+    Inspect Third Room.
+
+    4. Inspect Fourth Room.
+
+    5. Go Down to Ground Floor.'
+  audioClip: {fileID: 8300000, guid: edf7b770c9cc6da43a6185d2ade517f1, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 4506d58a3b08b2340b5d6ef895037114, type: 2}
+  - {fileID: 11400000, guid: 618fc700095e92e418a3a474188d25ce, type: 2}
+  - {fileID: 11400000, guid: 0450f9821e156f34684aa1d37d32d2f7, type: 2}
+  - {fileID: 11400000, guid: c8d605dbefb87b844a115f892cc5c04e, type: 2}
+  - {fileID: 11400000, guid: be86b3cfb5034064abb68b0638db0a4b, type: 2}

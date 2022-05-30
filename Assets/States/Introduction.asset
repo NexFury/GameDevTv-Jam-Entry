@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3eee3bfb7436f04babc4e8aa9eec256, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: 3c51487be10cc7346a88d0ec1a2040f6, type: 3}
+  locationName: N/A
+  clue: 0
+  storyText: 'Hello, Welcome to the game.
+
+
+    Controls: Alphanumeric keys 1-9 to
+    choose the choices you wish to make.
+
+
+    If at any point of time, you wish
+    to quit the game, press Q.
+
+
+    Warning: Game progress will not be saved, you
+    might have to play from the beginning in case you choose to restart.
+
+
+    There
+    is only 1 ending...
+
+
+    Anyways, Enjoy and have fun...
+
+    Press 1 to continue...'
+  audioClip: {fileID: 0}
+  nextStates:
+  - {fileID: 11400000, guid: 45f5fc319b13de846b9ecd31bfcc4f13, type: 2}
